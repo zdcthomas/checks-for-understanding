@@ -26,6 +26,16 @@ Note: When you're done, submit a PR.
 * 
 
 7. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
+
+2. What is Sinatra?
+
+3. What is MVC?
+
+4. Why do we follow conventions when creating our actions/path names in our Sinatra routes?
+
+5. What types of variables are accessible in our view templates without explicitly passing them?
+
+6. Given the following block of code, how would I pass an instance variable `count` with a value of `1` to my `index.erb` template?
   
   ```ruby
   get '/horses' do
@@ -109,6 +119,7 @@ CSV.for_each('./data/films.csv', headers: true, header_converters: :symbol) do |
               )
   end
 end
+
 ```
 
 
@@ -116,9 +127,9 @@ end
 ```ruby
 activities = {
   hiking: {cost: $0, supplies: ['hiking shoes', 'water', 'compass']},
-  karaoke: {cost: $10, supplies: ['courage', 'microphone'],
-  brunch: {cost: $35, supplies: ['mimosa flutes'],
-  antiquing: {cost: $200, supplies: ['list of antique stores'] 
+  karaoke: {cost: $10, supplies: ['courage', 'microphone']},
+  brunch: {cost: $35, supplies: ['mimosa flutes']},
+  antiquing: {cost: $200, supplies: ['list of antique stores']}
 }
 ```
 How would I add 'granola bar' to things you should have when hiking?
@@ -134,8 +145,9 @@ How would I add 'granola bar' to things you should have when hiking?
 * PolyMorphism - inherited methods can be used on many different data types
 
 
+
 ### Self Assessment:
-Choose One:
+Choose One: (erase the others)
 * I was able to answer every question without relying on outside resources
 * I was able to answer most questions independently, but utilized outside resources for a few <- I don't remember explicitly encountering the 4 principles of oop before, but I knew the terms which comprise it.
 
